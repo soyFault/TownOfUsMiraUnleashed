@@ -1,0 +1,593 @@
+<resources>
+<!-- Ajustes Locales -->
+    <string name="MiraUnleashed.LocalSetting.EnableNauseaCameraShake">Activar Cámara de Náuseas</string>
+    <string name="MiraUnleashed.LocalSetting.CluelessCensorType">Censura de Desorientado</string>
+    <string name="MiraUnleashed.LocalSetting.CluelessCensorType.WhiteBars">Barras Blancas</string>
+    <string name="MiraUnleashed.LocalSetting.CluelessCensorType.Asterisks">Asteriscos</string>
+    <string name="MiraUnleashed.LocalSetting.CluelessCensorType.QuestionMarks">Signos de Pregunta</string>
+    <string name="MiraUnleashed.LocalSetting.CluelessCensorType.RemoveText">Quitar Texto</string>
+    <string name="MiraUnleashed.LocalSetting.CluelessCensorType.RemoveTab">Quitar Pestaña</string>
+<!-- Plugin -->
+    <string name="MiraUnleashed.OptionsTitle">Mira Unleashed</string>
+    <string name="MiraUnleashed.Common.Unknown">Desconocido</string>
+
+<!-- Previsor -->
+    <string name="MiraUnleashed.Role.Forestaller">Previsor</string>
+    <string name="MiraUnleashed.Role.Forestaller.IntroBlurb">Desactiva sabotajes con tus tareas</string>
+    <string name="MiraUnleashed.Role.Forestaller.TabDescription">Termina todas tus tareas. Cuando lo hagas,
+no podrán llamar sabotajes mientras sigas vivo.</string>
+    <string name="MiraUnleashed.Role.Forestaller.WikiDescription">El Previsor es un Tripulante de Apoyo que puede prevenir los sabotajes antes que ocurran. Al completar todas sus tareas, los sabotajes se desactivan mientras siga vivo. El Previsor es revelado al finalizar su última tarea.</string>
+    <string name="MiraUnleashed.Forestaller.SabotagesDisabledAnnouncement">El Previsor terminó sus tareas. Se desactivaron los sabotajes.</string>
+
+<!-- Opciones del Previsor -->
+    <string name="MiraUnleashed.Options.Forestaller.ExtraShortTasks">Tareas cortas extra</string>
+    <string name="MiraUnleashed.Options.Forestaller.ExtraLongTasks">Tareas largas extra</string>
+    <string name="MiraUnleashed.Options.Forestaller.RevealTiming">Momento de revelar</string>
+    <string name="MiraUnleashed.Options.Forestaller.RevealTiming.NextMeeting">Siguiente reunión</string>
+    <string name="MiraUnleashed.Options.Forestaller.RevealTiming.Instant">Al instante</string>
+
+<!-- Espejismo -->
+    <string name="MiraUnleashed.Role.Mirage">Espejismo</string>
+    <string name="MiraUnleashed.Role.Mirage.IntroBlurb">¡Ja, Ilusos!</string>
+    <string name="MiraUnleashed.Role.Mirage.TabDescription">Prepara un señuelo y colócalo. Si alguien interactúa con él, desaparecerá y recibirás una notificación.</string>
+    <string name="MiraUnleashed.Role.Mirage.WikiDescription">El Espejismo es un Tripulante de Apoyo que puede colocar un señuelo con la apariencia de un objetivo elegido (tú mismo o un jugador aleatorio). Si alguien interactúa con el señuelo, este desaparece al instante y tanto el Espejismo como quien interactuó recibirán una notificación. Nota: No pueden adivinar al Espejismo si el señuelo tiene tu propia apariencia.</string>
+    <string name="MiraUnleashed.Role.MirageDecoy">Señuelo</string>
+    <string name="MiraUnleashed.Role.MirageDecoy.WikiDescription">Actívala para preparar un señuelo y vuelve a presionarla para colocarlo. Mientras esté activo, el botón cambiará a Destruir.</string>
+    <string name="MiraUnleashed.Mirage.InteractorTriggered">¡Interactuaste con un señuelo!</string>
+    <string name="MiraUnleashed.Mirage.OwnerTriggered">¡Activaron tu señuelo!</string>
+
+<!-- Botón del Espejismo -->
+    <string name="MiraUnleashed.Mirage.DecoyPrime">Preparar</string>
+    <string name="MiraUnleashed.Mirage.DecoyPlace">Colocar</string>
+    <string name="MiraUnleashed.Mirage.DecoyDestroy">Destruir</string>
+
+<!-- Opciones del Espejismo -->
+    <string name="MiraUnleashed.Options.Mirage.InitialUses">Usos iniciales</string>
+    <string name="MiraUnleashed.Options.Mirage.UsesPerTasks">Usos por tareas</string>
+    <string name="MiraUnleashed.Options.Mirage.DecoyCooldown">Recarga del señuelo</string>
+    <string name="MiraUnleashed.Options.Mirage.DecoyDuration">Tiempo para destruir</string>
+    <string name="MiraUnleashed.Options.Mirage.DecoyType">Tipo de señuelo</string>
+    <string name="MiraUnleashed.Options.Mirage.DecoyType.Mirage">Espejismo</string>
+    <string name="MiraUnleashed.Options.Mirage.DecoyType.RandomPlayer">Jugador aleatorio</string>
+    <string name="MiraUnleashed.Options.Mirage.ArrowTime">Duración de la flecha</string>
+    <string name="MiraUnleashed.Options.Mirage.ArrowTarget">Objetivo de la flecha</string>
+    <string name="MiraUnleashed.Options.Mirage.ArrowTarget.Mirage">Espejismo</string>
+    <string name="MiraUnleashed.Options.Mirage.ArrowTarget.Interactor">Interactor</string>
+
+<!-- Hacker -->
+    <string name="MiraUnleashed.Role.Hacker">Hacker</string>
+    <string name="MiraUnleashed.Role.Hacker.IntroBlurb">Hackea el sistema y tumba comunicaciones</string>
+    <string name="MiraUnleashed.Role.Hacker.TabDescription">Descarga información e interfiere equipos. Mata para obtener cargas adicionales de interferencia.</string>
+    <string name="MiraUnleashed.Role.Hacker.WikiDescription">El Hacker es un Impostor de Apoyo que puede descargar información de equipos cercanos para cargar un dispositivo portátil. Al comenzar una descarga, quedará limitado a ese tipo de equipo hasta la siguiente ronda. La interferencia altera los sistemas de información como si se hubiera saboteado Comunicaciones, pero aún se pueden convocar reuniones de emergencia.</string>
+    <string name="MiraUnleashed.Role.HackerDownload">Descargar</string>
+    <string name="MiraUnleashed.Role.HackerDownload.WikiDescription">Acércate a una consola compatible (Administración/Cámaras/Signos Vitales/Registro de Puertas) y descarga información para cargar tu batería. Cada segundo de descarga te otorga 2 segundos de batería (configurable). No podrás cambiar de tipo de equipo hasta la siguiente ronda.</string>
+    <string name="MiraUnleashed.Role.HackerDevice">Dispositivo</string>
+    <string name="MiraUnleashed.Role.HackerDevice.WikiDescription">Usa el sistema descargado desde cualquier lugar, consumiendo batería con el tiempo.</string>
+    <string name="MiraUnleashed.Role.HackerJam">Interferir</string>
+    <string name="MiraUnleashed.Role.HackerJam.WikiDescription">Consume una carga de interferencia para interrumpir los sistemas de información durante un tiempo. Funciona como si Comunicaciones estuviera saboteado, pero no impide convocar reuniones de emergencia.</string>
+
+  <!-- Opciones del Hacker -->
+    <string name="MiraUnleashed.Options.Hacker.MaxBatterySeconds">Duración máxima de batería</string>
+    <string name="MiraUnleashed.Options.Hacker.BatteryPerDownloadSecond">Batería obtenida por segundo de descarga</string>
+    <string name="MiraUnleashed.Options.Hacker.DownloadRange">Alcance de descarga</string>
+    <string name="MiraUnleashed.Options.Hacker.MoveWithDevice">Moverse al usar el dispositivo</string>
+    <string name="MiraUnleashed.Options.Hacker.SimpleModeJamOnly">Modo simple (solo interferencia)</string>
+    <string name="MiraUnleashed.Options.Hacker.InitialJamCharges">Cargas iniciales de interferencia</string>
+    <string name="MiraUnleashed.Options.Hacker.JamChargesPerKill">Cargas de interferencia por asesinato</string>
+    <string name="MiraUnleashed.Options.Hacker.JamMaxCharges">Cargas máximas de interferencia</string>
+    <string name="MiraUnleashed.Options.Hacker.JamCooldown">Recarga de interferencia</string>
+    <string name="MiraUnleashed.Options.Hacker.JamDuration">Duración de la interferencia</string>
+    <string name="MiraUnleashed.Options.Hacker.JamSoundCue">Escucha sonido de interferencia</string>
+    <string name="MiraUnleashed.Options.Hacker.JamSoundCue.HackerOnly">Solo Hacker</string>
+    <string name="MiraUnleashed.Options.Hacker.JamSoundCue.Everyone">Todos</string>
+
+<!-- Injector Role -->
+    <string name="MiraUnleashed.Role.Injector">Inyector</string>
+    <string name="MiraUnleashed.Role.Injector.IntroBlurb">Inyecta a otros jugadores con efectos negativos.</string>
+    <string name="MiraUnleashed.Role.Injector.TabDescription">Inyecta a otros jugadores para aplicarles efectos aleatorios.</string>
+    <string name="MiraUnleashed.Role.Injector.WikiDescription">El Inyector es un Impostor de Apoyo que puede inyectar a otros jugadores con diversos efectos negativos. Los efectos se seleccionan al azar y pueden incluir controles invertidos, visión reducida, lentitud o confusión.</string>
+    <string name="MiraUnleashed.Role.InjectorInject">Inyectar</string>
+    <string name="MiraUnleashed.Role.InjectorInject.WikiDescription">Inyecta a un jugador cercano con un efecto negativo aleatorio. El efecto se activará tras un retraso configurable.</string>
+
+    <!-- Opciones del Inyector -->
+    <string name="MiraUnleashed.Options.Injector.InjectCooldown">Recarga de inyección</string>
+    <string name="MiraUnleashed.Options.Injector.EffectDelay">Retraso de activación del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.EffectDurationType">Tipo de duración del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.EffectDurationType.AllRound">Toda la ronda</string>
+    <string name="MiraUnleashed.Options.Injector.EffectDurationType.AllGame">Toda la partida</string>
+    <string name="MiraUnleashed.Options.Injector.EffectDurationType.SetTime">Tiempo establecido</string>
+    <string name="MiraUnleashed.Options.Injector.EffectDuration">Duración del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.InitialUses">Usos iniciales</string>
+    <string name="MiraUnleashed.Options.Injector.UsesPerKill">Usos por asesinato</string>
+    <string name="MiraUnleashed.Options.Injector.PositiveEffectsEnabled">Permitir efectos positivos</string>
+    <string name="MiraUnleashed.Options.Injector.SelectedEffectType">Tipo de efecto a configurar</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.InvertedControls">Controles invertidos</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.LowVision">Visión reducida</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.Slowness">Lentitud</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.VeryLowVision">Visión muy reducida</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.Confused">Confusión</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.NoVent">Sin ductos</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.NoUse">Sin habilidades</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.NoReport">Sin reportes</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.Nausea">Náuseas</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.Weakness">Debilidad</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.SpeedBoost">Aumento de velocidad</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.VisionBoost">Aumento de visión</string>
+    <string name="MiraUnleashed.Options.Injector.EffectType.Regeneration">Regeneración</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceInvertedControls">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceLowVision">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceSlowness">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceVeryLowVision">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceConfused">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceNoVent">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceNoUse">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceNoReport">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceNausea">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceWeakness">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceSpeedBoost">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceVisionBoost">Probabilidad del efecto</string>
+    <string name="MiraUnleashed.Options.Injector.ChanceRegeneration">Probabilidad del efecto</string>
+
+    <!-- Mostrar modificador del Inyector -->
+    <string name="MiraUnleashed.Injector.Modifier.Name">Inyectado (&lt;effect&gt;)</string>
+    <string name="MiraUnleashed.Injector.Notification.Injected">¡Te han inyectado! &lt;effect&gt;: &lt;description&gt;. &lt;duration&gt;</string>
+    <string name="MiraUnleashed.Injector.Duration.SetTime">Quedan &lt;time&gt;s</string>
+    <string name="MiraUnleashed.Injector.Duration.AllRound">Hasta la próxima reunión</string>
+    <string name="MiraUnleashed.Injector.Duration.AllGame">Durante el resto de la partida</string>
+    <string name="MiraUnleashed.Injector.Duration.Lasts">Dura &lt;time&gt;s</string>
+
+    <!-- Notificaciones del Inyector -->
+    <string name="MiraUnleashed.Injector.Notification.InvertedControls">Empiezas a sentirte mareado…</string>
+    <string name="MiraUnleashed.Injector.Notification.LowVision">Tu campo de visión se reduce…</string>
+    <string name="MiraUnleashed.Injector.Notification.Slowness">Sientes las piernas cada vez más pesadas…</string>
+    <string name="MiraUnleashed.Injector.Notification.VeryLowVision">Sientes que estás perdiendo la vista...</string>
+    <string name="MiraUnleashed.Injector.Notification.Confused">Empiezas a sentirte confundido...</string>
+    <string name="MiraUnleashed.Injector.Notification.NoVent">Te sientes demasiado débil para usar los ductos…</string>
+    <string name="MiraUnleashed.Injector.Notification.NoUse">Sientes que tu cuerpo está paralizado…</string>
+    <string name="MiraUnleashed.Injector.Notification.NoReport">Tu mente se queda en blanco al ver cuerpos…</string>
+    <string name="MiraUnleashed.Injector.Notification.Nausea">Sientes náuseas…</string>
+    <string name="MiraUnleashed.Injector.Notification.Weakness">Te sientes extremadamente débil…</string>
+    <string name="MiraUnleashed.Injector.Notification.SpeedBoost">¡Te sientes lleno de energía y más rápido!</string>
+    <string name="MiraUnleashed.Injector.Notification.VisionBoost">¡Tu visión se vuelve increíblemente nítida!</string>
+    <string name="MiraUnleashed.Injector.Notification.Regeneration">¡Sientes cómo tu cuerpo se recupera rápidamente!</string>
+
+    <!-- Descripciones de los efectos del Inyector -->
+    <string name="MiraUnleashed.Injector.EffectDescription.InvertedControls">Controles invertidos</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.LowVision">0.5x de visión</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.VeryLowVision">0.1x de visión</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.Slowness">0.5x de velocidad</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.Confused">Alucinaciones, no puede reportar cuerpos</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.NoVent">No puede usar los ductos</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.NoUse">No puede usar habilidades</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.NoReport">No puede reportar cuerpos</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.Nausea">0.7x de velocidad, 0.7x de visión y temblor de cámara</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.Weakness">0.6x de velocidad</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.SpeedBoost">1.5x de velocidad</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.VisionBoost">1.5x de visión</string>
+    <string name="MiraUnleashed.Injector.EffectDescription.Regeneration">Tiempos de recarga reducidos</string>
+
+    <!-- Notificaciones al terminar los efectos del Inyector -->
+    <string name="MiraUnleashed.Injector.Notification.WoreOffInvertedControls">La sensación de mareo ha desaparecido.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffLowVision">Tu visión ha vuelto a la normalidad.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffVeryLowVision">Has recuperado la vista por completo.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffSlowness">Tus piernas vuelven a sentirse normales.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffConfused">La confusión ha desaparecido.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffNoVent">Ya puedes volver a usar los ductos.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffNoUse">Ya puedes volver a usar tus habilidades.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffNoReport">Ya puedes volver a reportar cuerpos.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffNausea">Las náuseas han desaparecido.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffWeakness">Has recuperado tus fuerzas.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffSpeedBoost">El aumento de velocidad ha terminado.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffVisionBoost">Tu visión ha vuelto a la normalidad.</string>
+    <string name="MiraUnleashed.Injector.Notification.WoreOffRegeneration">El efecto de regeneración ha terminado.</string>
+
+<!-- Bruja -->
+  <string name="MiraUnleashed.Role.Witch">Bruja</string>
+  <string name="MiraUnleashed.Role.Witch.IntroBlurb">¡Nos encanta lanzar hechizos!</string>
+  <string name="MiraUnleashed.Role.Witch.TabDescription">Lanza hechizos a otros jugadores.
+Serán señalados en la próxima reunión y morirán tras la cantidad de reuniones configurada.</string>
+  <string name="MiraUnleashed.Role.Witch.WikiDescription">La Bruja es un Impostor Asesino que puede lanzar hechizos a otros jugadores. Los jugadores hechizados serán señalados en la próxima reunión y morirán tras la cantidad de reuniones configurada. Si la Bruja muere, es expulsada o la identifican, todos los jugadores hechizados sobrevivirán.</string>
+  <string name="MiraUnleashed.Role.WitchSpell">Hechizo</string>
+  <string name="MiraUnleashed.Role.WitchSpell.WikiDescription">Lanza un hechizo a un jugador. Será señalado en la próxima reunión y morirá tras la cantidad de reuniones configurada.</string>
+
+<!-- Opciones de la Bruja -->
+  <string name="MiraUnleashed.Options.Witch.SpellCooldown">Recarga del hechizo</string>
+  <string name="MiraUnleashed.Options.Witch.AdditionalCooldown">Recarga adicional de la Bruja</string>
+  <string name="MiraUnleashed.Options.Witch.SpellCastingDuration">Duración del lanzamiento del hechizo</string>
+  <string name="MiraUnleashed.Options.Witch.MeetingsUntilDeath">Reuniones hasta morir</string>
+  <string name="MiraUnleashed.Options.Witch.SpellRange">Alcance del hechizo</string>
+  <string name="MiraUnleashed.Options.Witch.SpellResetsKillCooldown">El hechizo reinicia la recarga de asesinato</string>
+
+<!-- Mensaje de muerte de la Bruja -->
+  <string name="DiedToWitch">Hechizado</string>
+
+<!-- Notificaciones de la Bruja -->
+  <string name="MiraUnleashed.Witch.SpellNotification">¡&lt;player&gt; ha sido hechizado! Le quedan &lt;meetings&gt; reunión(es). ¡Expulsen o maten a la Bruja para salvarlo!</string>
+  <string name="MiraUnleashed.Witch.SpellNotificationMultiple">Varios jugadores han sido hechizados:\n&lt;players&gt;\n¡Expulsen o maten a la Bruja para salvarlos!</string>
+
+<!-- Espectro -->
+  <string name="MiraUnleashed.Role.Wraith">Espectro</string>
+  <string name="MiraUnleashed.Role.Wraith.IntroBlurb">Muévete rápido y ataca de forma impredecible.</string>
+  <string name="MiraUnleashed.Role.Wraith.TabDescription">Acelera para ganar velocidad. Coloca una linterna para teletransportarte de vuelta a ella.</string>
+  <string name="MiraUnleashed.Role.Wraith.WikiDescription">El Espectro es un Impostor Superior enfocado en el movimiento rápido e impredecible. Acelerar aumenta tu velocidad de movimiento un 75% durante un breve periodo. Linterna te permite colocar una marca oculta que solo tú puedes ver; actívala de nuevo para teletransportarte hasta ella y volverte invisible brevemente. Si la linterna desaparece antes de que regreses, se romperá y dejará pruebas permanentes visibles para todos los jugadores.</string>
+  <string name="MiraUnleashed.Role.WraithDash">Acelerar</string>
+  <string name="MiraUnleashed.Role.WraithDash.WikiDescription">Aumenta temporalmente tu velocidad de movimiento un 75%.</string>
+  <string name="MiraUnleashed.Role.WraithLantern">Linterna</string>
+  <string name="MiraUnleashed.Role.WraithLantern.WikiDescription">Coloca una linterna que solo tú puedes ver. Actívala de nuevo para teletransportarte hasta ella y volverte invisible brevemente. Si desaparece, se romperá y dejará pruebas visibles para todos.</string>
+  <string name="MiraUnleashed.Role.WraithLanternPlace">Linterna</string>
+  <string name="MiraUnleashed.Role.WraithLanternReturn">Regresar</string>
+
+<!-- Opciones del Espectro -->
+  <string name="MiraUnleashed.Options.Wraith.DashCooldown">Recarga de aceleración</string>
+  <string name="MiraUnleashed.Options.Wraith.DashDuration">Duración de aceleración</string>
+  <string name="MiraUnleashed.Options.Wraith.Lantern">Linterna</string>
+  <string name="MiraUnleashed.Options.Wraith.LanternCooldown">Recarga de linterna</string>
+  <string name="MiraUnleashed.Options.Wraith.LanternDuration">Duración de linterna</string>
+  <string name="MiraUnleashed.Options.Wraith.InvisibleDuration">Duración de invisibilidad</string>
+
+  <!-- Trampero -->
+  <string name="MiraUnleashed.Role.Trapper">Trampero</string>
+  <string name="MiraUnleashed.Role.Trapper.IntroBlurb">Coloca trampas en los ductos.</string>
+  <string name="MiraUnleashed.Role.Trapper.TabDescription">Coloca trampas en los ductos. Los jugadores que usen un ducto trampeado quedarán inmovilizados durante un tiempo.</string>
+  <string name="MiraUnleashed.Role.Trapper.WikiDescription">El Trampero es un Tripulante que puede colocar trampas en los ductos. Cuando un jugador usa un ducto trampeado, queda inmovilizado durante un tiempo y el Trampero recibe una notificación.</string>
+  <string name="MiraUnleashed.Role.TrapperTrap">Trampa</string>
+  <string name="MiraUnleashed.Role.TrapperTrap.WikiDescription">Coloca una trampa en un ducto. Los jugadores que lo usen quedarán atrapados e inmovilizados.</string>
+  <string name="MiraUnleashed.Trapper.Placed">¡Colocaste una trampa en &lt;room&gt;!</string>
+  <string name="MiraUnleashed.Trapper.Triggered">¡Tu trampa se activó en &lt;room&gt;!</string>
+  <string name="MiraUnleashed.Trapper.Caught">¡Caíste en una trampa en &lt;room&gt;!</string>
+
+<!-- Opciones del Trampero -->
+  <string name="MiraUnleashed.Options.Trapper.TrapCooldown">Recarga de trampa</string>
+  <string name="MiraUnleashed.Options.Trapper.TrapDuration">Duración de la trampa</string>
+  <string name="MiraUnleashed.Options.Trapper.ArrowDuration">Duración de la flecha</string>
+  <string name="MiraUnleashed.Options.Trapper.MaxTraps">Cantidad máxima de trampas</string>
+  <string name="MiraUnleashed.Options.Trapper.TrapRoundsLast">Rondas que dura la trampa</string>
+  <string name="MiraUnleashed.Options.Trapper.GetMoreFromTasks">Obtener más trampas con tareas</string>
+  <string name="MiraUnleashed.Options.Trapper.TasksUntilMoreTraps">Tareas para obtener más trampas</string>
+  <string name="MiraUnleashed.Options.Trapper.TrapTargets">Objetivos de las trampas</string>
+  <string name="MiraUnleashed.Options.Trapper.TrapTargets.Impostors">Impostores</string>
+  <string name="MiraUnleashed.Options.Trapper.TrapTargets.ImpostorsAndNeutrals">Impostores y Neutrales</string>
+  <string name="MiraUnleashed.Options.Trapper.TrapTargets.All">Todos</string>
+  <string name="MiraUnleashed.Options.Trapper.ArrowTarget">Objetivo de la flecha</string>
+  <string name="MiraUnleashed.Options.Trapper.ArrowTarget.Vent">Ducto</string>
+  <string name="MiraUnleashed.Options.Trapper.ArrowTarget.Person">Jugador</string>
+
+<!-- Se renombra el Trampero (TOU) a Revelador - Estas strings sobreescriben las del mod base:
+    (A partir de TOUM 1.7.3, el mod busca TownOfUsMira.Role.<IdPart>, el parche cambia el IdPart original de trampero por "Revealer") -->
+  <string name="TownOfUsMira.Role.Revealer">Revelador</string>
+  <string name="TownOfUsMira.Role.Revealer.IntroBlurb">Identifica qué roles hay en la partida</string>
+  <string name="TownOfUsMira.Role.Revealer.TabDescription">Coloca trampas por el mapa para revelar los roles de quienes caigan en ellas.</string>
+  <string name="TownOfUsMira.Role.Revealer.WikiDescription">El Revelador es un Tripulante Investigador que puede colocar trampas por el mapa. Si un jugador permanece en una trampa el tiempo suficiente y pasan suficientes jugadores por ella, durante la siguiente reunión recibirás una lista con sus roles en orden aleatorio.</string>
+  <string name="TownOfUsMira.Role.RevealerTrap">Trampa</string>
+  <string name="TownOfUsMira.Role.RevealerTrap.WikiDescription">Coloca una trampa. Dependiendo de la configuración, puede permanecer durante toda la partida o reiniciarse después de las reuniones.</string>
+
+  <string name="TownOfUsMira.Role.RevealerNoPlayers">Ningún jugador entró en tus trampas.</string>
+  <string name="TownOfUsMira.Role.RevealerNotEnoughPLayers">No hubo suficientes jugadores para activar tus trampas.</string>
+  <string name="TownOfUsMira.Role.RevealerRolesCaught">Roles atrapados en tu trampa:</string>
+  <string name="TownOfUsMira.Role.RevealerMessageTitle">Informe del Revelador:</string>
+
+<!-- Modificador Desorientado -->
+    <string name="MiraUnleashed.Modifier.Clueless">Desorientado</string>
+  <string name="MiraUnleashed.Modifier.Clueless.IntroBlurb">Estás por tu cuenta.</string>
+  <string name="MiraUnleashed.Modifier.Clueless.TabDescription">No puedes ver tu lista, marcadores de tareas ni su ubicación en el mapa.</string>
+  <string name="MiraUnleashed.Modifier.Clueless.WikiDescription">No puedes ver tu lista, marcadores de tareas ni su ubicación en el mapa. Las tareas siguen apareciendo con normalidad y cuentan para la barra de tareas.</string>
+
+<!-- Opciones de Desorientado -->
+  <string name="MiraUnleashed.Options.Clueless.Amount">Cantidad de Desorientados</string>
+  <string name="MiraUnleashed.Options.Clueless.Chance">Probabilidad de Desorientado</string>
+
+<!-- Charlatán -->
+  <string name="MiraUnleashed.Role.Charlatan">Charlatán</string>
+  <string name="MiraUnleashed.Role.Charlatan.IntroBlurb">Manipula los reportes de cuerpos a tu favor.</string>
+  <string name="MiraUnleashed.Role.Charlatan.TabDescription">Usa Engañar para reportar desde cualquier distancia los cuerpos que hayas matado.
+    Usa Ocultar para reducir el alcance de reporte de los cuerpos cercanos.</string>
+  <string name="MiraUnleashed.Role.Charlatan.WikiDescription">El Charlatán es un Impostor de Apoyo que manipula los reportes de cuerpos. Engañar te permite reportar desde cualquier distancia los cuerpos que hayas matado, durante un tiempo limitado tras el asesinato. Ocultar reduce el alcance de reporte de los cuerpos cercanos, pero requiere que permanezcas cerca del cuerpo mientras dura.</string>
+  <string name="MiraUnleashed.Role.CharlatanDeceive">Engañar</string>
+  <string name="MiraUnleashed.Role.CharlatanDeceive.WikiDescription">Reporta el cuerpo que mataste desde cualquier distancia, sin importar el alcance ni la línea de visión. Disponible durante un tiempo limitado tras matar.</string>
+  <string name="MiraUnleashed.Role.CharlatanConceal">Ocultar</string>
+  <string name="MiraUnleashed.Role.CharlatanConceal.WikiDescription">Reduce el alcance de reporte de los cuerpos cercanos. Debes permanecer cerca del cuerpo mientras dure para ocultarlo con éxito.</string>
+
+<!-- Opciones del Charlatán -->
+  <string name="MiraUnleashed.Options.Charlatan.DeceiveBaseDuration">Duración base de Engañar</string>
+  <string name="MiraUnleashed.Options.Charlatan.DeceiveDurationIncreasePerKill">Aumento de duración de Engañar por asesinato</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealUses">Usos de Ocultar</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealChargesPerKill">Cargas de Ocultar por asesinato</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealReportRange">Alcance de reporte al Ocultar</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealReportRangeEnum.ExtremelyShort">Extremadamente corto</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealReportRangeEnum.VeryShort">Muy corto</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealReportRangeEnum.Short">Corto</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealChannelDuration">Duración del canalizado de Ocultar</string>
+  <string name="MiraUnleashed.Options.Charlatan.ConcealCooldown">Recarga de Ocultar</string>
+
+<!-- Asesino Serial -->
+  <string name="MiraUnleashed.Role.SerialKiller">Asesino Serial</string>
+  <string name="MiraUnleashed.Role.SerialKiller.IntroBlurb">Mata a todos, gana en solitario.</string>
+  <string name="MiraUnleashed.Role.SerialKiller.TabDescription">Mata a todos para ganar en solitario.
+    Puedes matar a jugadores dentro de ductos, pero perderás la capacidad de usarlos después de hacerlo.</string>
+  <string name="MiraUnleashed.Role.SerialKiller.WikiDescription">El Asesino Serial es un Neutral Asesino cuyo único objetivo es matar a todos y ganar en solitario. Opcionalmente, puede matar a los jugadores que estén dentro de ductos con él, pero pierdes la capacidad de usar ductos el resto de la partida al hacerlo.</string>
+  <string name="MiraUnleashed.Modifier.SerialKillerManiac">Maníaco</string>
+  <string name="DiedToSerialKiller">Masacrado</string>
+
+<!-- Opciones del Asesino Serial -->
+  <string name="MiraUnleashed.Options.SerialKiller.CanReportBodies">Puede reportar cuerpos</string>
+  <string name="MiraUnleashed.Options.SerialKiller.VentKillTargets">Objetivos de asesinato en ductos</string>
+  <string name="MiraUnleashed.Options.SerialKiller.VentKillTargetsEnum.Impostors">Impostores</string>
+  <string name="MiraUnleashed.Options.SerialKiller.VentKillTargetsEnum.ImpNK">Impostores + Neutrales Asesinos</string>
+  <string name="MiraUnleashed.Options.SerialKiller.VentKillTargetsEnum.ImpNeutrals">Impostores + Neutrales</string>
+  <string name="MiraUnleashed.Options.SerialKiller.VentKillTargetsEnum.Any">Cualquiera</string>
+  <string name="MiraUnleashed.Options.SerialKiller.ManiacMode">Modo Maníaco</string>
+  <string name="MiraUnleashed.Options.SerialKiller.ManiacTimer">Temporizador del Maníaco</string>
+  <string name="MiraUnleashed.Options.SerialKiller.ManiacCooldown">Recarga de matar</string>
+
+<!-- Rol Necrófago -->
+  <string name="MiraUnleashed.Role.Scavenger">Necrófago</string>
+  <string name="MiraUnleashed.Role.Scavenger.IntroBlurb">Come cadáveres para ganar en solitario.</string>
+  <string name="MiraUnleashed.Role.Scavenger.TabDescription">Come cadáveres para ganar en solitario.</string>
+  <string name="MiraUnleashed.Role.Scavenger.WikiDescription">El Necrófago es un Neutral Malvado cuyo objetivo es comer una cantidad determinada de cadáveres. Opcionalmente, puede usar Olfatear para obtener flechas que apuntan a los cadáveres. Si su condición de victoria ya no puede cumplirse, se convierte en el rol configurado.</string>
+  <string name="MiraUnleashed.Role.ScavengerEat">Comer</string>
+  <string name="MiraUnleashed.Role.ScavengerEat.WikiDescription">Come un cadáver cercano. Cuenta para tu condición de victoria.</string>
+  <string name="MiraUnleashed.Role.ScavengerScavenge">Olfatear</string>
+  <string name="MiraUnleashed.Role.ScavengerScavenge.WikiDescription">Obtén flechas que apuntan a todos los cadáveres durante un tiempo. Si un cadáver está en otro piso en Submerged, la flecha apuntará al elevador.</string>
+
+<!-- Opciones del Necrófago -->
+  <string name="MiraUnleashed.Options.Scavenger.EatCooldown">Recarga de Comer</string>
+  <string name="MiraUnleashed.Options.Scavenger.EatDuration">Duración de Comer</string>
+  <string name="MiraUnleashed.Options.Scavenger.BodiesToWin">Cantidad de cuerpos para ganar</string>
+  <string name="MiraUnleashed.Options.Scavenger.CanVent">El Necrófago puede usar ductos</string>
+  <string name="MiraUnleashed.Options.Scavenger.ScavengeEnabled">Olfatear habilitado</string>
+  <string name="MiraUnleashed.Options.Scavenger.ScavengeCooldown">Recarga de Olfatear</string>
+  <string name="MiraUnleashed.Options.Scavenger.ScavengeDuration">Duración de Olfatear</string>
+  <string name="MiraUnleashed.Options.Scavenger.OnLoseBecomes">Si pierde, el Necrófago se convierte en</string>
+
+<!-- Scavenger de TOU renombrado a Bloodhound: el parche de IdPart hace que estas sean las claves de idioma del rol
+        Esto no aplica en Español porque Scavenger de Unleashed es Necrófago y el de TOU es Carroñero
+-->
+  <string name="TownOfUsMira.Role.Bloodhound">Carroñero</string>
+  <string name="TownOfUsMira.Role.Bloodhound.IntroBlurb">Caza a tu presa</string>
+  <string name="TownOfUsMira.Role.Bloodhound.MedDescription">Mata a tu objetivo asignado para
+    reducir el tiempo de recarga.
+    Si no logras matarlo, recibirás una penalización.</string>
+  <string name="TownOfUsMira.Role.Bloodhound.TabDescription">Mata a tus objetivos asignados para obtener una recarga reducida.
+    Si no los matas, recibirás una penalización.</string>
+  <string name="TownOfUsMira.Role.Bloodhound.WikiDescription">El Carroñero es un Impostor Asesino que recibe un nuevo objetivo al inicio de cada ronda y después de cada asesinato. Si mata a su objetivo, obtiene un tiempo de recarga de asesinato reducido. Si no lo hace, su tiempo de recarga aumentará considerablemente.</string>
+  <string name="TownOfUsMira.Role.BloodhoundYourNextTarget">es tu siguiente objetivo.</string>
+  <string name="TownOfUsMira.Role.BloodhoundTabTimer">Tiempo de Carroñeo: [timeLeft]</string>
+  <string name="TownOfUsMira.Role.BloodhoundTabTarget">Objetivo actual: [player]</string>
+
+<!-- Modificador Rencoroso -->
+  <string name="MiraUnleashed.Modifier.Spiteful">Rencoroso</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.IntroBlurb">Castiga a quienes voten contra ti.</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.TabDescription">Cuando te expulsan, todos los que votaron por ti reciben un efecto negativo.</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.WikiDescription">Cuando te expulsan, todos los que votaron por ti reciben un efecto negativo.</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.EffectType">Efecto de castigo</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.Effect.LowerVision">Menor visión</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.Effect.Slowness">Lentitud</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.Effect.IncreasedCooldowns">Mayores recargas</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.VoterNotification">¡El jugador por el que votaste era &lt;spiteful&gt;! &lt;effect&gt;</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.Effect.LowerVisionDescription">Tu visión se reduce un &lt;impact&gt;%</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.Effect.SlownessDescription">Tu velocidad se reduce un &lt;impact&gt;%</string>
+  <string name="MiraUnleashed.Modifier.Spiteful.Effect.IncreasedCooldownsDescription">Las recargas de tus habilidades aumentan un &lt;impact&gt;%</string>
+
+<!-- Opciones de Rencoroso -->
+  <string name="MiraUnleashed.Options.Spiteful.Amount">Cantidad de Rencorosos</string>
+  <string name="MiraUnleashed.Options.Spiteful.Chance">Probabilidad de Rencoroso</string>
+  <string name="MiraUnleashed.Options.Spiteful.Impact">Impacto del Rencoroso</string>
+  <string name="MiraUnleashed.Options.Spiteful.EffectType">Efecto de castigo</string>
+  <string name="MiraUnleashed.Options.Spiteful.EffectType.LowerVision">Menor visión</string>
+  <string name="MiraUnleashed.Options.Spiteful.EffectType.Slowness">Lentitud</string>
+  <string name="MiraUnleashed.Options.Spiteful.EffectType.IncreasedCooldowns">Mayores recargas</string>
+  <string name="MiraUnleashed.Options.Spiteful.DurationType">Duración del castigo</string>
+  <string name="MiraUnleashed.Options.Spiteful.DurationType.NextRounds">Siguientes rondas</string>
+  <string name="MiraUnleashed.Options.Spiteful.DurationType.RestOfGame">Resto de la partida</string>
+  <string name="MiraUnleashed.Options.Spiteful.RoundCount">Cantidad de rondas</string>
+
+<!-- Abogado -->
+  <string name="MiraUnleashed.Role.Lawyer">Abogado</string>
+  <string name="MiraUnleashed.Role.LawyerIntroBlurb">¡Defiende a tu cliente para ganar!</string>
+  <string name="MiraUnleashed.Role.LawyerTabDescription">Defiende a &lt;client&gt;. ¡Si lo expulsan, pierdes!</string>
+  <string name="MiraUnleashed.Role.LawyerWikiDescription">El Abogado es un Neutral Benigno que gana evitando que expulsen a su cliente asignado. Si su cliente es expulsado, el Abogado pierde.</string>
+  <string name="MiraUnleashed.Role.LawyerObject">Objetar</string>
+  <string name="MiraUnleashed.Role.LawyerObjectWikiDescription">Durante las reuniones, haz clic en el botón de objeción en el área de votos de tu cliente para objetar todos los votos, borrándolos y obligando a los jugadores a votar de nuevo.</string>
+  <string name="MiraUnleashed.Role.LawyerClientDescription">Tu abogado es &lt;lawyer&gt;.</string>
+  <string name="MiraUnleashed.Role.LawyerClientTabDescription">Tu abogado es &lt;lawyer&gt;.</string>
+
+<!-- Opciones del Abogado -->
+  <string name="MiraUnleashed.Options.Lawyer.WinMode">Gana</string>
+  <string name="MiraUnleashed.Options.Lawyer.WinMode.WithClient">Junto al cliente</string>
+  <string name="MiraUnleashed.Options.Lawyer.WinMode.StealWin">Roba la victoria</string>
+  <string name="MiraUnleashed.Options.Lawyer.DieOnClientDeath">Muere con su cliente</string>
+  <string name="MiraUnleashed.Options.Lawyer.BecomesOnClientDeath">Si su cliente muere se vuelve</string>
+  <string name="MiraUnleashed.Options.Lawyer.GetVotedOutWithClient">Es expulsado junto al cliente</string>
+  <string name="MiraUnleashed.Options.Lawyer.CanSeeClientRole">Sabe el rol de su cliente</string>
+  <string name="MiraUnleashed.Options.Lawyer.KillerClientChance">Probabilidad de cliente asesino</string>
+  <string name="MiraUnleashed.Options.Lawyer.ObjectionPreventsSameVote">Impedir votos repetidos tras una objeción</string>
+  <string name="MiraUnleashed.Options.Lawyer.MaxObjections">Máximo de objeciones (por partida)</string>
+  <string name="MiraUnleashed.Options.Lawyer.MaxObjectionsPerMeeting">Máximo de objeciones por reunión</string>
+  <string name="MiraUnleashed.Options.Lawyer.PrivateChat">Chat privado con cliente</string>
+
+<!-- Varios del Abogado -->
+  <string name="MiraUnleashed.Lawyer.Win">Gana</string>
+  <string name="MiraUnleashed.Lawyer.ChatTitle">&lt;player&gt; (Abogado)</string>
+  <string name="MiraUnleashed.Lawyer.ClientChatTitle">&lt;player&gt; (Cliente)</string>
+  <string name="MiraUnleashed.Lawyer.DiedWithClient">Defensa fallida</string>
+  <string name="MiraUnleashed.Lawyer.DiedClientDeath">Caso cerrado</string>
+  <string name="MiraUnleashed.Lawyer.ObjectionNotification">¡Protesto! Un abogado ha objetado los votos actuales. Se borraron todos los votos; por favor, voten de nuevo.</string>
+  <string name="MiraUnleashed.Lawyer.CannotVoteSamePerson">¡No puedes votar por la misma persona después de una objeción!</string>
+
+<!-- Logros -->
+  <string name="MiraUnleashed.Achievements.Tab">Mira Unleashed</string>
+
+  <string name="MiraUnleashed.Achievement.Unleashed.Name">Desatado</string>
+  <string name="MiraUnleashed.Achievement.Unleashed.Description">Recibe un rol de Mira Unleashed.</string>
+
+  <string name="MiraUnleashed.Achievement.DoubleJeopardy.Name">Doble problema</string>
+  <string name="MiraUnleashed.Achievement.DoubleJeopardy.Description">Comienza una partida con los modificadores Rencoroso y Desorientado a la vez.</string>
+
+  <string name="MiraUnleashed.Achievement.JackOfAllTrades.Name">Todoterreno</string>
+  <string name="MiraUnleashed.Achievement.JackOfAllTrades.Description">Recibe cada rol de Mira Unleashed al menos una vez.</string>
+
+  <string name="MiraUnleashed.Achievement.SpeedrunLockdown.Name">Bloqueo relámpago</string>
+  <string name="MiraUnleashed.Achievement.SpeedrunLockdown.Description">Activa el bloqueo del Previsor antes de la primera reunión de la partida.</string>
+
+  <string name="MiraUnleashed.Achievement.UnderPressure.Name">Bajo presión</string>
+  <string name="MiraUnleashed.Achievement.UnderPressure.Description">Completa todas las tareas como Previsor mientras hay una cuenta regresiva de Bomba Maléfica activa.</string>
+
+  <string name="MiraUnleashed.Achievement.Gottem.Name">¡Al fin te atrapé Esponja!</string>
+  <string name="MiraUnleashed.Achievement.Gottem.Description">Atrapa a alguien interactuando con tu señuelo como Espejismo.</string>
+
+  <string name="MiraUnleashed.Achievement.CarnivalOfIllusions.Name">Carnaval de ilusiones</string>
+  <string name="MiraUnleashed.Achievement.CarnivalOfIllusions.Description">Haz que activen tus señuelos 3 veces en una sola partida.</string>
+
+  <string name="MiraUnleashed.Achievement.StuntDouble.Name">Doble de riesgo</string>
+  <string name="MiraUnleashed.Achievement.StuntDouble.Description">Haz que ataquen a un señuelo con tu propia apariencia.</string>
+
+  <string name="MiraUnleashed.Achievement.MistakenIdentity.Name">Doppelgänger</string>
+  <string name="MiraUnleashed.Achievement.MistakenIdentity.Description">Atrapa a un jugador atacando a un señuelo que se parece a él.</string>
+
+  <string name="MiraUnleashed.Achievement.PestControl.Name">Control de plagas</string>
+  <string name="MiraUnleashed.Achievement.PestControl.Description">Atrapa a 5 jugadores en tus cepos de ducto.</string>
+
+  <string name="MiraUnleashed.Achievement.RevolvingDoor.Name">Puerta giratoria</string>
+  <string name="MiraUnleashed.Achievement.RevolvingDoor.Description">Atrapa al mismo jugador dos veces en una partida.</string>
+
+  <string name="MiraUnleashed.Achievement.HotPursuit.Name">Pisándole los talones</string>
+  <string name="MiraUnleashed.Achievement.HotPursuit.Description">Atrapa a un jugador dentro de los 10 segundos posteriores a que haya matado a alguien.</string>
+
+  <string name="MiraUnleashed.Achievement.SmokeAndMirrors.Name">Humo y espejos</string>
+  <string name="MiraUnleashed.Achievement.SmokeAndMirrors.Description">Engaña con 3 cuerpos como Charlatán en una sola partida.</string>
+
+  <string name="MiraUnleashed.Achievement.NothingToSeeHere.Name">Nada que ver aquí</string>
+  <string name="MiraUnleashed.Achievement.NothingToSeeHere.Description">Logra que un cuerpo que ocultaste siga sin reportarse cuando se convoca una reunión con el botón.</string>
+
+  <string name="MiraUnleashed.Achievement.TheWayMojangIntended.Name">Al pie de la letra</string>
+  <string name="MiraUnleashed.Achievement.TheWayMojangIntended.Description">Juega el rol como Mojang lo planeó. (Reporta con Engañar un cuerpo desde otra sala.)</string>
+
+  <string name="MiraUnleashed.Achievement.DdosAttack.Name">Ataque DDoS</string>
+  <string name="MiraUnleashed.Achievement.DdosAttack.Description">Interfiere a los jugadores 3 veces como Hacker en una sola partida.</string>
+
+  <string name="MiraUnleashed.Achievement.DeadAir.Name">Silencio de radio</string>
+  <string name="MiraUnleashed.Achievement.DeadAir.Description">Mata a un jugador mientras tu interferencia está activa como Hacker.</string>
+
+  <string name="MiraUnleashed.Achievement.Placebo.Name">Placebo</string>
+  <string name="MiraUnleashed.Achievement.Placebo.Description">Inyecta a un jugador con un efecto positivo.</string>
+
+  <string name="MiraUnleashed.Achievement.DoubleDose.Name">Dosis doble</string>
+  <string name="MiraUnleashed.Achievement.DoubleDose.Description">Inyecta al mismo jugador dos veces en una partida.</string>
+
+  <string name="MiraUnleashed.Achievement.ClinicalTrial.Name">Ensayo clínico</string>
+  <string name="MiraUnleashed.Achievement.ClinicalTrial.Description">Inyecta a 5 jugadores en una sola partida.</string>
+
+  <string name="MiraUnleashed.Achievement.TripleThreat.Name">Triple amenaza</string>
+  <string name="MiraUnleashed.Achievement.TripleThreat.Description">Inyecta al mismo jugador tres veces en una partida.</string>
+
+  <string name="MiraUnleashed.Achievement.HopelesslyLost.Name">Perdido sin remedio</string>
+  <string name="MiraUnleashed.Achievement.HopelesslyLost.Description">Inyecta Confusión a un jugador Desorientado.</string>
+
+  <string name="MiraUnleashed.Achievement.MarkedForDeath.Name">Condenado</string>
+  <string name="MiraUnleashed.Achievement.MarkedForDeath.Description">Lanza un hechizo a un jugador como Bruja.</string>
+
+  <string name="MiraUnleashed.Achievement.PracticedHand.Name">Mano experta</string>
+  <string name="MiraUnleashed.Achievement.PracticedHand.Description">Lanza hechizos a 10 jugadores como Bruja.</string>
+
+  <string name="MiraUnleashed.Achievement.TwinSacrifice.Name">Sacrificio gemelo</string>
+  <string name="MiraUnleashed.Achievement.TwinSacrifice.Description">Mata a 2 jugadores con tus hechizos en una sola reunión.</string>
+
+  <string name="MiraUnleashed.Achievement.FullCoven.Name">Aquelarre completo</string>
+  <string name="MiraUnleashed.Achievement.FullCoven.Description">Ten a 5 jugadores bajo tu hechizo al mismo tiempo.</string>
+
+  <string name="MiraUnleashed.Achievement.HitAndRun.Name">Choque y Fuga</string>
+  <string name="MiraUnleashed.Achievement.HitAndRun.Description">Mata a un jugador y luego teletranspórtate de vuelta a tu linterna en menos de 5 segundos.</string>
+
+  <string name="MiraUnleashed.Achievement.AirtightAlibi.Name">Coartada perfecta</string>
+  <string name="MiraUnleashed.Achievement.AirtightAlibi.Description">Vuelve a tu linterna después de matar y estate en una sala distinta cuando otro jugador reporte el cuerpo.</string>
+
+  <string name="MiraUnleashed.Achievement.LeaveNoTrace.Name">Sin dejar rastro</string>
+  <string name="MiraUnleashed.Achievement.LeaveNoTrace.Description">Vuelve a tu linterna 5 veces en una partida sin dejar que ninguno se rompa.</string>
+
+  <string name="MiraUnleashed.Achievement.SpeedDemon.Name">Demonio veloz</string>
+  <string name="MiraUnleashed.Achievement.SpeedDemon.Description">Mata a 2 jugadores durante una sola Embestida.</string>
+
+  <string name="MiraUnleashed.Achievement.ObjectionSustained.Name">Ha Lugar</string>
+  <string name="MiraUnleashed.Achievement.ObjectionSustained.Description">Objeta los votos mientras tu cliente tenga al menos un voto en contra.</string>
+
+  <string name="MiraUnleashed.Achievement.Overruled.Name">Desestimado</string>
+  <string name="MiraUnleashed.Achievement.Overruled.Description">Objeta los votos y que expulsen a tu cliente de todos modos en la misma reunión.</string>
+
+  <string name="MiraUnleashed.Achievement.Mistrial.Name">Juicio nulo</string>
+  <string name="MiraUnleashed.Achievement.Mistrial.Description">Objeta los votos y que la nueva votación expulse a alguien que no sea tu cliente.</string>
+
+  <string name="MiraUnleashed.Achievement.CleanPlateClub.Name">Club del plato limpio</string>
+  <string name="MiraUnleashed.Achievement.CleanPlateClub.Description">Come 3 cuerpos en una sola partida como Necrófago.</string>
+
+  <string name="MiraUnleashed.Achievement.BuffetRegular.Name">Cliente del bufé</string>
+  <string name="MiraUnleashed.Achievement.BuffetRegular.Description">Come 10 cuerpos como Necrófago.</string>
+
+  <string name="MiraUnleashed.Achievement.BottomlessPit.Name">Pozo sin fondo</string>
+  <string name="MiraUnleashed.Achievement.BottomlessPit.Description">Come 3 cuerpos en una sola ronda como Necrófago.</string>
+
+  <string name="MiraUnleashed.Achievement.AcquiredTaste.Name">Gusto adquirido</string>
+  <string name="MiraUnleashed.Achievement.AcquiredTaste.Description">Come un cuerpo que un Charlatán ocultó.</string>
+
+  <string name="MiraUnleashed.Achievement.ColdOpen.Name">Apertura en frío</string>
+  <string name="MiraUnleashed.Achievement.ColdOpen.Description">Consigue el primer asesinato de la partida como Asesino Serial.</string>
+
+  <string name="MiraUnleashed.Achievement.SerialSeason.Name">Temporada de caza</string>
+  <string name="MiraUnleashed.Achievement.SerialSeason.Description">Mata a 10 jugadores como Asesino Serial.</string>
+
+  <string name="MiraUnleashed.Achievement.Massacre.Name">Masacre</string>
+  <string name="MiraUnleashed.Achievement.Massacre.Description">Mata a 3 jugadores como Asesino Serial en una sola ronda.</string>
+
+  <string name="MiraUnleashed.Achievement.BuzzerBeater.Name">Jugada de último segundo</string>
+  <string name="MiraUnleashed.Achievement.BuzzerBeater.Description">Mata cuando falten menos de 3 segundos en tu temporizador de Maníaco.</string>
+
+  <string name="MiraUnleashed.Achievement.PyrrhicVote.Name">Voto pírrico</string>
+  <string name="MiraUnleashed.Achievement.PyrrhicVote.Description">Quedar maldecido tras votar por un jugador Rencoroso.</string>
+
+  <string name="MiraUnleashed.Achievement.MiseryLovesCompany.Name">La miseria ama la compañía</string>
+  <string name="MiraUnleashed.Achievement.MiseryLovesCompany.Description">Sé expulsado como Rencoroso y maldice a 2 o más votantes.</string>
+
+  <string name="MiraUnleashed.Achievement.FriendlyFire.Name">Fuego amigo</string>
+  <string name="MiraUnleashed.Achievement.FriendlyFire.Description">Quedar maldecido como Impostor por votar contra tu propio compañero Rencoroso.</string>
+
+  <string name="MiraUnleashed.Achievement.WingIt.Name">Hice todo lo que podía</string>
+  <string name="MiraUnleashed.Achievement.WingIt.Description">Completa una tarea como jugador Desorientado.</string>
+
+  <string name="MiraUnleashed.Achievement.MuscleMemory.Name">Memoria muscular</string>
+  <string name="MiraUnleashed.Achievement.MuscleMemory.Description">Completa 5 tareas como jugador Desorientado en una sola partida.</string>
+
+  <string name="MiraUnleashed.Achievement.CluelessCompletionist.Name">Desorientado completista</string>
+  <string name="MiraUnleashed.Achievement.CluelessCompletionist.Description">Completa todas las tareas como jugador Desorientado en una sola partida.</string>
+
+  <string name="MiraUnleashed.Achievement.Targeted.Name">En la mira</string>
+  <string name="MiraUnleashed.Achievement.Targeted.Description">Activa tu bloqueo y sé el siguiente jugador en morir.</string>
+
+  <string name="MiraUnleashed.Achievement.Floodgates.Name">Compuertas abiertas</string>
+  <string name="MiraUnleashed.Achievement.Floodgates.Description">Muere con tu bloqueo activo y observa cómo se activa un sabotaje en menos de 15 segundos.</string>
+
+  <string name="MiraUnleashed.Achievement.Framed.Name">Incriminado</string>
+  <string name="MiraUnleashed.Achievement.Framed.Description">Reporta un cuerpo con Engañar y logra que expulsen a otro jugador en esa reunión.</string>
+
+  <string name="MiraUnleashed.Achievement.Blackout.Name">Apagón</string>
+  <string name="MiraUnleashed.Achievement.Blackout.Description">Activa la interferencia mientras las luces están saboteadas.</string>
+
+  <string name="MiraUnleashed.Achievement.BackdoorAccess.Name">Puerta trasera</string>
+  <string name="MiraUnleashed.Achievement.BackdoorAccess.Description">Activa la interferencia mientras un Previsor tiene los sabotajes bloqueados.</string>
+
+  <string name="MiraUnleashed.Achievement.AndMakeItDouble.Name">Y que sea doble</string>
+  <string name="MiraUnleashed.Achievement.AndMakeItDouble.Description">Lanza un hechizo a un jugador que ya esté maldito por un Conjurador.</string>
+
+  <string name="MiraUnleashed.Achievement.EleventhHour.Name">A la hora undécima</string>
+  <string name="MiraUnleashed.Achievement.EleventhHour.Description">Activa el bloqueo del Previsor mientras hay una cuenta regresiva de sabotaje crítico en marcha.</string>
+
+  <string name="MiraUnleashed.Achievement.DevilsAdvocate.Name">Abogado del diablo</string>
+  <string name="MiraUnleashed.Achievement.DevilsAdvocate.Description">Gana como Abogado mientras tu cliente es un Impostor o un Neutral Asesino.</string>
+
+  <string name="MiraUnleashed.Achievement.FastFood.Name">Comida rápida</string>
+  <string name="MiraUnleashed.Achievement.FastFood.Description">Come un cuerpo dentro de los 10 segundos posteriores al asesinato.</string>
+
+  <string name="MiraUnleashed.Achievement.SnakeInThePipes.Name">Serpiente en las tuberías</string>
+  <string name="MiraUnleashed.Achievement.SnakeInThePipes.Description">Mata a un jugador dentro de un ducto como Asesino Serial.</string>
+
+  <string name="MiraUnleashed.Achievement.BurnTheWitch.Name">Quemen al Brujo</string>
+  <string name="MiraUnleashed.Achievement.BurnTheWitch.Description">Estando bajo el hechizo de un Brujo, expulsa al Brujo y vive para contarlo.</string>
+</resources>

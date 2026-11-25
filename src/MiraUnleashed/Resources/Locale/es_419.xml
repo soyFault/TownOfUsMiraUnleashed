@@ -588,6 +588,6 @@ Serán señalados en la próxima reunión y morirán tras la cantidad de reunion
   <string name="MiraUnleashed.Achievement.SnakeInThePipes.Name">Serpiente en las tuberías</string>
   <string name="MiraUnleashed.Achievement.SnakeInThePipes.Description">Mata a un jugador dentro de un ducto como Asesino Serial.</string>
 
-  <string name="MiraUnleashed.Achievement.BurnTheWitch.Name">Quemen al Brujo</string>
-  <string name="MiraUnleashed.Achievement.BurnTheWitch.Description">Estando bajo el hechizo de un Brujo, expulsa al Brujo y vive para contarlo.</string>
+  <string name="MiraUnleashed.Achievement.BurnTheWitch.Name">Quema de Brujas</string>
+  <string name="MiraUnleashed.Achievement.BurnTheWitch.Description">Estando bajo el hechizo de una Bruja, expulsa a la Bruja y vive para contarlo.</string>
 </resources>
